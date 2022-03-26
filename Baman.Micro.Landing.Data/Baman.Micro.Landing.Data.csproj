@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Baman.CoreLib.Messages" Version="0.1.51" />
+    <PackageReference Include="Manex.CoreLib" Version="0.1.58" />
+  </ItemGroup>
+
+</Project>

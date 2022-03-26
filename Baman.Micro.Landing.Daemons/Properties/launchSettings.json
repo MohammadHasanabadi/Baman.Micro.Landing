@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Baman.Micro.Landing.Daemons": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

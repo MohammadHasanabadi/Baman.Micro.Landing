@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-Baman.Micro.Landing.Daemons-2EFF4DAB-2687-4DBD-935C-AD0100E5E266</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Baman.CoreLib.Messages" Version="0.1.51" />
+    <PackageReference Include="Manex.CoreLib" Version="0.1.58" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Baman.Micro.Landing.Data\Baman.Micro.Landing.Data.csproj" />
+  </ItemGroup>
+</Project>
