@@ -15,6 +15,7 @@ namespace Baman.Micro.Landing
         public static void Main(string[] args) => CreateHostBuilder(args).Build().Run();
 
        
+
         public static IHostBuilder CreateHostBuilder(string[] args)
             => BamanHost.Create<Startup>(args);
     }
